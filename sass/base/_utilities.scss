@@ -1,0 +1,16 @@
+.text--cyan {
+  color: $dark-desaturated-cyan;
+}
+
+.text--blue {
+  color: $dark-blue;
+}
+
+.text--trans-dark-to-light {
+  color: $very-dark-desaturated-blue !important;
+  transition: color .2s;
+
+  &:hover {
+    color: $white !important;
+  }
+}
